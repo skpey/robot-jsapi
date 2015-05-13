@@ -56,7 +56,8 @@
 				"message":"群组已解散"
 			}
 		
-2. 把成员踢出群组 `/weixin/jsapi/group/kick.json` 	* 方法： POST
+2. 把成员踢出群组 `/weixin/jsapi/group/kick.json` 	
+	* 方法： POST
 	* 参数：
 		* gid -- 群组ID
 		* uid -- 被踢用户的ID
@@ -66,7 +67,8 @@
 				"code":200,
 				"message":"OK"
 			}
-3. 修改昵称 `/weixin/jsapi/user/modify_nick.json` 	* 方法： POST
+3. 修改昵称 `/weixin/jsapi/user/modify_nick.json` 	
+	* 方法： POST
 	* 参数：
 		* uid -- 用户的ID
 		* nick -- 新的昵称
