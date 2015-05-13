@@ -1,7 +1,7 @@
 ### JS API
 HOST为约定的主机名
 
-1. 签名 /weixin/jsapi/signature.json
+1. 签名 `/weixin/jsapi/signature.json`
 	* 方法：GET
 	* 参数：无，服务器获取Referer作为参数
 	* 返回：
