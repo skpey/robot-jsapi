@@ -145,7 +145,7 @@
 			{
 				// TODO:
 			}  
-1. 搜索提示 `/weixin/jsapi/vod/search.json`
+1. 搜索 `/weixin/jsapi/vod/search.json`
 
 	* 方法：GET
 	* 参数：keyword -- 已输入关键词
