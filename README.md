@@ -2,6 +2,8 @@
 * HOST为约定的主机名
 * 微信API以用户的OpenID作为认证鉴权
 
+### 一。签名
+
 1. 签名 `/weixin/jsapi/signature.json`
 	* 方法：GET
 	* 参数：无，服务器获取Referer作为参数
@@ -16,7 +18,8 @@
 	* 示例
 		
 			curl --header "Referer: http://127.0.0.1/app.html" http://HOST/weixin/jsapi/signature.json
-			
+		
+### 二。群组
 1. 群组基本信息 `/weixin/jsapi/group/info.json`
 	* 方法：GET
 	* 参数：无
@@ -67,6 +70,7 @@
 				"code":200,
 				"message":"OK"
 			}
+			
 3. 修改昵称 `/weixin/jsapi/user/modify_nick.json` 	
 	* 方法： POST
 	* 参数：
@@ -77,5 +81,78 @@
 			{
 				"code":200,
 				"message":"OK"
-			} 4.  
+			}
+			
+### 三。故事点播
+
+4. 点播首页 `/weixin/jsapi/vod/index.json` 	
+	* 方法：GET
+	* 参数：无
+	* 返回：
+			
+			{
+				"code":200,
+				"message":"OK",
+				"data":{
+					"categories":[
+						{
+							"id":6778,
+							"name":"国学",
+							"icon":"图标URL"
+						},
+						{
+							"id":6776,
+							"name":"故事",
+							"icon":"图标URL"
+						},
+						{
+							"id":6779,
+							"name":"儿歌",
+							"icon":"图标URL"
+						}
+					],
+					"recommend":[
+						{
+							"id":16778,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"国学",
+							"icon":"图标URL"
+						},
+						{
+							"id":16776,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"故事",
+							"icon":"图标URL"
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL"
+						}
+					]
+				}
+			}
+1. 搜索提示 `/weixin/jsapi/vod/search_suggest.json`
+
+	* 方法：GET
+	* 参数：keyword -- 已输入关键词
+	* 返回：
+		
+			{
+				// TODO:
+			}  1. 搜索提示 `/weixin/jsapi/vod/search.json`
+
+	* 方法：GET
+	* 参数：keyword -- 已输入关键词
+	* 返回：
+		
+			{
+				// TODO:
+			}
+
+### 四。讲故事 
 2. 待补充，随时更新
