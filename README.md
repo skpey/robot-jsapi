@@ -1,6 +1,7 @@
 ### JS API
 * HOST为约定的主机名
 * 微信API以用户的OpenID作为认证鉴权
+* 返回值中的code为200调用成功，其他值失败，message可以参考错误原因
 
 ### 一。签名
 
@@ -59,7 +60,7 @@
 				"message":"群组已解散"
 			}
 		
-2. 把成员踢出群组 `/weixin/jsapi/group/kick.json` 	
+1. 把成员踢出群组 `/weixin/jsapi/group/kick.json`
 	* 方法： POST
 	* 参数：
 		* gid -- 群组ID
@@ -71,7 +72,7 @@
 				"message":"OK"
 			}
 			
-3. 修改昵称 `/weixin/jsapi/user/modify_nick.json` 	
+1. 修改昵称 `/weixin/jsapi/user/modify_nick.json` 	
 	* 方法： POST
 	* 参数：
 		* uid -- 用户的ID
@@ -85,9 +86,10 @@
 			
 ### 三。故事点播
 
-4. 点播首页 `/weixin/jsapi/vod/index.json` 	
+1. 点播首页 `/weixin/jsapi/vod/index.json` 	
 	* 方法：GET
 	* 参数：无
+	* 返回字段说明： is_collected -- 是否已收藏
 	* 返回：
 			
 			{
@@ -117,25 +119,218 @@
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
 							"category_name":"国学",
-							"icon":"图标URL"
+							"icon":"图标URL",
+							"is_collected":true,
 						},
 						{
 							"id":16776,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
 							"category_name":"故事",
-							"icon":"图标URL"
+							"icon":"图标URL",
+							"is_collected":false,
 						},
 						{
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
 							"category_name":"儿歌",
-							"icon":"图标URL"
+							"icon":"图标URL",
+							"is_collected":false,
 						}
 					]
 				}
 			}
+			
+	
+1. 排行榜 `/weixin/jsapi/vod/ranklist.json`
+	* 方法：GET
+	* 参数：
+		* (可选参数)limit -- 获取排名前几，默认前10
+	* 返回字段说明：
+		* order -- 排名 
+	* 返回： 			
+			
+			{
+				"code":200,
+				"message":"OK",
+				"data":[
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected":false,
+							"order":1
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected":false,
+							"order":2
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected":false,
+							"order":3
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected":false,
+							"order":4
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected":false,
+							"order":5
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected":false,
+							"order":6
+						}
+				]
+			}
+1. 我的收藏 `/weixin/jsapi/vod/my_collections.json`
+	* 方法：GET
+	* 参数：无
+	* 返回：
+			
+			{
+				"code":200,
+				"message":"OK",
+				"data":[
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected":true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						}
+				]
+			}
+1. 获取某个分类下点播列表 `/weixin/jsapi/vod/list.json` 	
+	* 方法：GET
+	* 参数：category_id -- 分类ID
+	* 返回：
+			
+			{
+				"code":200,
+				"message":"OK",
+				"data":[
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected":true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						}
+				]
+			}
+			
+
 1. 搜索提示 `/weixin/jsapi/vod/search_suggest.json`
 
 	* 方法：GET
@@ -143,7 +338,14 @@
 	* 返回：
 		
 			{
-				// TODO:
+				"code":200,
+				"message":"OK",
+				"data":[
+					{"name":"兔子去"},
+					{"name":"芭比去哪儿"},
+					{"name":"芭比"},
+					{"name":"芭比去"}
+				]
 			}  
 1. 搜索 `/weixin/jsapi/vod/search.json`
 
@@ -152,8 +354,98 @@
 	* 返回：
 		
 			{
-				// TODO:
+				"code":200,
+				"message":"OK",
+				"data":[
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected":true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						}
+				]
 			}
 
-### 四。讲故事 
+
+1. 添加到故事机 `/weixin/jsapi/playlist/add.json`
+	* 方法：POST
+	* 参数：
+		* media_id -- 故事儿歌的ID
+	* 返回：
+		
+			{
+				"code":200,
+				"message":"OK"
+			}
+1. 加入到我的收藏 `/weixin/jsapi/collections/add.json`
+	* 方法：POST
+	* 参数：
+		* media_id -- 故事儿歌的ID
+	* 返回：
+		
+			{
+				"code":200,
+				"message":"OK"
+			}
+1. 从我的收藏中删除 `/weixin/jsapi/collections/remove.json`
+	* 方法：POST
+	* 参数：
+		* media_id -- 故事儿歌的ID
+	* 返回：
+		
+			{
+				"code":200,
+				"message":"OK"
+			}
+
+### 四。讲故事
+1.
+
+### 五。网络故事机
+1.
+### 六。XX设置
+1.
+ 
 2. 待补充，随时更新
