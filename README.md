@@ -270,6 +270,7 @@
 						}
 				]
 			}
+1. TODO: 点播的分类列表 `/weixin/jsapi/vod/categories.json`
 1. 获取某个分类下点播列表 `/weixin/jsapi/vod/list.json` 	
 	* 方法：GET
 	* 参数：category_id -- 分类ID
@@ -441,11 +442,33 @@
 			}
 
 ### 四。讲故事
-1.
+1. TODO: 讲故事首页 `/weixin/jsapi/story/index.json`
+1. TODO: 故事文本的分类列表 `/weixin/jsapi/story/categories.json`
+1. TODO: 某个分类下所有的故事文本列表 `/weixin/jsapi/story/list.json`
+1. 故事文本 `/weixin/jsapi/story/{story_id}.json`
+	* 方法：GET
+	* 参数：
+		* story_id -- 故事文本的ID，放在URL中，比如ID为1234，则请求`story/1234.json`
+	* 返回：
+			
+			{
+				//TODO:
+			} 
+			
+1. 保存已上传到微信服务器的录音文件 `/weixin/jsapi/story/save_voice.json`
+	* 方法：POST
+	* 参数：
+		* story_id -- 故事文本的ID  
+		* voice_id -- 上传完微信后得到的serverId（服务器返回音频的服务器端ID）
+	* 返回：
+			
+			{
+				"code":200,
+				"message":"OK"
+			}
 
 ### 五。网络故事机
-1.
+1. TODO:
 ### 六。XX设置
-1.
+1. TODO:
  
-2. 待补充，随时更新
