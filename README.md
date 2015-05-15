@@ -452,7 +452,12 @@
 	* 返回：
 			
 			{
-				//TODO:
+				"code":200,
+				"message":"OK",
+				"data":{
+					"id":1234,
+					"content":"从前有座山，山里有个老和尚，老和尚对小和尚说。。。"
+				}
 			} 
 			
 1. 保存已上传到微信服务器的录音文件 `/weixin/jsapi/story/save_voice.json`
