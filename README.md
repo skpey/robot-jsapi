@@ -111,11 +111,12 @@
 							"icon":"图标URL"
 						}
 					],
-					"recommend":[
+					"recommends":[
 						{
 							"id":16778,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"国学",
 							"icon":"图标URL",
 							"is_collected":true,
@@ -124,6 +125,7 @@
 							"id":16776,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"故事",
 							"icon":"图标URL",
 							"is_collected":false,
@@ -132,6 +134,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected":false,
@@ -157,6 +160,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected":false,
@@ -166,6 +170,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected":false,
@@ -175,6 +180,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected":false,
@@ -184,6 +190,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected":false,
@@ -193,6 +200,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected":false,
@@ -202,6 +210,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected":false,
@@ -222,6 +231,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected":true
@@ -230,6 +240,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected": true
@@ -238,6 +249,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected": true
@@ -246,6 +258,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected": true
@@ -254,6 +267,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected": true
@@ -262,6 +276,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected": true
@@ -281,6 +296,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected":true
@@ -289,6 +305,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected": true
@@ -297,6 +314,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected": true
@@ -305,6 +323,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected": true
@@ -313,6 +332,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected": true
@@ -321,6 +341,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected": true
@@ -359,6 +380,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected":true
@@ -367,6 +389,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected": true
@@ -375,6 +398,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected": true
@@ -383,6 +407,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected": true
@@ -391,6 +416,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected": true
@@ -399,6 +425,7 @@
 							"id":16779,
 							"name":"小兔子乖乖",
 							"audio":"音频的URL，一般都mp3",
+							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
 							"is_collected": true
@@ -471,7 +498,7 @@
 							"icon":"图标URL"
 						}
 					],
-					"recommend":[
+					"recommends":[
 						{
 							"id":16778,
 							"name":"小兔子",
@@ -494,13 +521,34 @@
 				}
 			}
 			
-1. 某个分类下所有的故事文本列表 `/weixin/jsapi/story/list.json`
+1. 某个分类下所有的故事列表 `/weixin/jsapi/story/list.json`
 	* 方法：GET
 	* 参数：category_id -- 分类ID
 	* 返回：
 			
 			{
-			// TODO: 
+				"code":200,
+				"message":"OK",
+				"data":[
+						{
+							"id":16778,
+							"name":"小兔子",
+							"category_name":"童话故事",
+							"icon":"图标URL",
+						},
+						{
+							"id":16776,
+							"name":"小兔子不乖",
+							"category_name":"童话故事",
+							"icon":"图标URL",
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"category_name":"寓言故事",
+							"icon":"图标URL",
+						}
+				]
 			}
 	
 1. 故事文本 `/weixin/jsapi/story/{story_id}.json`
@@ -531,7 +579,7 @@
 			}
 
 ### 五。网络故事机
-1. 推荐的语音包列表 `/weixin/jsapi/voice_pack/recommends.json`
+1. 推荐的语音包列表 `/weixin/jsapi/audio_pack/recommends.json`
 	* 方法：GET
 	* 参数：无
 	* 返回：
@@ -563,7 +611,7 @@
 				]
 			}
 
-1. 语音包详情 `/weixin/jsapi/voice_pack/{语音包ID}.json`
+1. 语音包详情 `/weixin/jsapi/audio_pack/{语音包ID}.json`
 	* 方法：GET
 	* 参数：无
 	* 返回：
