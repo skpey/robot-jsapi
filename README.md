@@ -24,7 +24,6 @@
 1. 群组基本信息 `/weixin/jsapi/group/info.json`
 	* 方法：GET
 	* 参数：无
-	* 说明：用于页面【群成员】
 	* 返回：
 			
 			{
@@ -626,7 +625,7 @@
 			
 1. 			
 
-### 六。XX设置
+### 六。设置
 1. 更新设备 `/weixin/jsapi/settings/update.json`
 	* 方法：POST
 	* 参数：
