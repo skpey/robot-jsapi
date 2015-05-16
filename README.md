@@ -269,7 +269,6 @@
 						}
 				]
 			}
-1. TODO: 点播的分类列表 `/weixin/jsapi/vod/categories.json`
 1. 获取某个分类下点播列表 `/weixin/jsapi/vod/list.json` 	
 	* 方法：GET
 	* 参数：category_id -- 分类ID
@@ -485,8 +484,15 @@
 				}
 			}
 			
-1. TODO: 故事文本的分类列表 `/weixin/jsapi/story/categories.json`
-1. TODO: 某个分类下所有的故事文本列表 `/weixin/jsapi/story/list.json`
+1. 某个分类下所有的故事文本列表 `/weixin/jsapi/story/list.json`
+	* 方法：GET
+	* 参数：category_id -- 分类ID
+	* 返回：
+			
+			{
+			// TODO: 
+			}
+	
 1. 故事文本 `/weixin/jsapi/story/{story_id}.json`
 	* 方法：GET
 	* 参数：
