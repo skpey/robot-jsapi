@@ -75,7 +75,6 @@
 1. 修改昵称 `/weixin/jsapi/user/modify_nick.json` 	
 	* 方法： POST
 	* 参数：
-		* uid -- 用户的ID
 		* nick -- 新的昵称
 	* 返回：
 		
