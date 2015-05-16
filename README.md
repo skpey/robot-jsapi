@@ -407,6 +407,17 @@
 				]
 			}
 
+1. 点播 `/weixin/jsapi/vod/send.json`
+	* 方法：POST
+	* 参数：
+		* media_id -- 故事儿歌的ID
+	* 说明：将直接发送到设备
+	* 返回：
+		
+			{
+				"code":200,
+				"message":"OK"
+			}
 
 1. 添加到故事机 `/weixin/jsapi/playlist/add.json`
 	* 方法：POST
@@ -521,8 +532,116 @@
 			}
 
 ### 五。网络故事机
-1. TODO:
+1. 推荐的语音包列表 `/weixin/jsapi/voice_pack/recommends.json`
+	* 方法：GET
+	* 参数：无
+	* 返回：
+			
+			{
+				"code":200,
+				"message":"OK",
+				"data":[
+					{
+						"id":16779,
+						"name":"钢琴系列",
+						"cover":"封面图标URL",
+					},
+					{
+						"id":16719,
+						"name":"睡前故事",
+						"cover":"封面图标URL",
+					},
+					{
+						"id":1279,
+						"name":"大灰狼系列",
+						"cover":"封面图标URL",
+					},
+					{
+						"id":1339,
+						"name":"光头强和熊二",
+						"cover":"封面图标URL",
+					}
+				]
+			}
+
+1. 语音包详情 `/weixin/jsapi/voice_pack/{语音包ID}.json`
+	* 方法：GET
+	* 参数：无
+	* 返回：
+		
+			{
+				"code":200,
+				"message":"OK",
+				"data":[
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected":true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						}
+				]
+			}
+			
+1. 			
 
 ### 六。XX设置
-1. TODO:
+1. 更新设备 `/weixin/jsapi/settings/update.json`
+	* 方法：POST
+	* 参数：
+		* (可选参数)baby_nick -- 宝宝昵称
+		* (可选参数)baby_birthday -- 宝宝生日
+		* (可选参数)device_volume -- 音量大小，整数，取值范围1-3代表低中高
+		* (可选参数)device_tone -- 提示音，整数，范围待定
+
+	* 说明：按需要填充参数，可以同时改一个或多个
+	* 返回：
+			
+				{
+					"code":200,
+					"message":"OK"
+				}
+			
+	
  
