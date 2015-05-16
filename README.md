@@ -433,11 +433,11 @@
 				]
 			}
 
-1. 点播 `/weixin/jsapi/vod/send.json`
+1. 发送到设备 `/weixin/jsapi/vod/send_to_device.json`
 	* 方法：POST
 	* 参数：
-		* media_id -- 故事儿歌的ID
-	* 说明：将直接发送到设备
+		* media_ids -- 故事儿歌的ID
+	* 说明：多个音频时，用半角逗号分隔
 	* 返回：
 		
 			{
