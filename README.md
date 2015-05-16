@@ -218,7 +218,7 @@
 						}
 				]
 			}
-1. 我的收藏 `/weixin/jsapi/vod/my_collections.json`
+1. 我的收藏 `/weixin/jsapi/collections/list.json`
 	* 方法：GET
 	* 参数：无
 	* 返回：
