@@ -445,7 +445,17 @@
 				"message":"OK"
 			}
 
-1. 添加到故事机 `/weixin/jsapi/playlist/add.json`
+1. 添加到播放列表 `/weixin/jsapi/playlist/add.json`
+	* 方法：POST
+	* 参数：
+		* media_id -- 故事儿歌的ID
+	* 返回：
+		
+			{
+				"code":200,
+				"message":"OK"
+			} 
+1. 从播放列表中删除 `/weixin/jsapi/playlist/remove.json`
 	* 方法：POST
 	* 参数：
 		* media_id -- 故事儿歌的ID
@@ -455,6 +465,7 @@
 				"code":200,
 				"message":"OK"
 			}
+			
 1. 加入到我的收藏 `/weixin/jsapi/collections/add.json`
 	* 方法：POST
 	* 参数：
@@ -671,7 +682,65 @@
 				]
 			}
 			
-1. 			
+1. 	我的播放列表 `/weixin/jsapi/playlist/list.json`
+	* 方法：GET
+	* 参数：无
+	* 返回：
+		
+			{
+				"code":200,
+				"message":"OK",
+				"data":[
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected":true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"icon":"图标URL",
+							"is_collected": true
+						}
+				]
+			}	
 
 ### 六。设置
 1. 更新设备 `/weixin/jsapi/settings/update.json`
