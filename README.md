@@ -742,6 +742,47 @@
 				]
 			}	
 
+1. 我的故事列表 `/weixin/jsapi/story_voice/list.json`
+	* 方法：GET
+	* 参数：无
+	* 返回：
+			
+			{
+				"code":200,
+				"message":"OK",
+				"data":[
+						{
+							"id":16778,
+							"name":"小兔子",
+							"duration":"00:59",
+							"voice":"故事录音URL"
+						},
+						{
+							"id":16776,
+							"name":"小兔子不乖",
+							"duration":"00:59",
+							"voice":"故事录音URL"
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"duration":"00:59",
+							"voice":"故事录音URL"
+						}
+				]
+			}
+
+1. 从我的故事中删除 `/weixin/jsapi/story_voice/delete.json`
+	* 方法：POST
+	* 参数
+		* story_voice_id -- 故事录音的ID
+	* 返回：
+			
+			{
+				"code":200,
+				"message":"OK"
+			}	 
+
 ### 六。设置
 1. 更新设备 `/weixin/jsapi/settings/update.json`
 	* 方法：POST
