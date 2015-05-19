@@ -560,7 +560,53 @@
 							"icon":"图标URL",
 						}
 				]
+			}  1. 讲故事-搜索提示 `/weixin/jsapi/story/search_suggest.json`
+
+	* 方法：POST
+	* 参数：keyword -- 已输入关键词
+	* 返回：
+		
+			{
+				"code":200,
+				"message":"OK",
+				"data":[
+					{"name":"兔子去"},
+					{"name":"芭比去哪儿"},
+					{"name":"芭比"},
+					{"name":"芭比去"}
+				]
+			}  
+1. 讲故事-搜索 `/weixin/jsapi/story/search.json`
+
+	* 方法：POST
+	* 参数：keyword -- 已输入关键词
+	* 返回：
+		
+			{
+				"code":200,
+				"message":"OK",
+				"data":[
+						{
+							"id":16778,
+							"name":"小兔子",
+							"category_name":"童话故事",
+							"icon":"图标URL",
+						},
+						{
+							"id":16776,
+							"name":"小兔子不乖",
+							"category_name":"童话故事",
+							"icon":"图标URL",
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"category_name":"寓言故事",
+							"icon":"图标URL",
+						}
+				]
 			}
+
 	
 1. 故事文本 `/weixin/jsapi/story/{story_id}.json`
 	* 方法：GET
