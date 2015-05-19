@@ -119,6 +119,7 @@
 							"duration":"03:12",
 							"category_name":"国学",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected":true,
 						},
 						{
@@ -128,6 +129,7 @@
 							"duration":"03:12",
 							"category_name":"故事",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected":false,
 						},
 						{
@@ -137,6 +139,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected":false,
 						}
 					]
@@ -163,6 +166,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected":false,
 							"order":1
 						},
@@ -173,6 +177,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected":false,
 							"order":2
 						},
@@ -183,6 +188,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected":false,
 							"order":3
 						},
@@ -193,6 +199,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected":false,
 							"order":4
 						},
@@ -203,6 +210,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected":false,
 							"order":5
 						},
@@ -213,6 +221,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected":false,
 							"order":6
 						}
@@ -234,6 +243,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected":true
 						},
 						{
@@ -243,6 +253,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected": true
 						},
 						{
@@ -252,6 +263,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected": true
 						},
 						{
@@ -261,6 +273,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected": true
 						},
 						{
@@ -270,6 +283,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected": true
 						},
 						{
@@ -279,6 +293,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected": true
 						}
 				]
@@ -299,6 +314,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected":true
 						},
 						{
@@ -308,6 +324,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected": true
 						},
 						{
@@ -317,6 +334,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected": true
 						},
 						{
@@ -326,6 +344,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected": true
 						},
 						{
@@ -335,6 +354,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected": true
 						},
 						{
@@ -344,6 +364,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected": true
 						}
 				]
@@ -383,6 +404,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected":true
 						},
 						{
@@ -392,6 +414,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected": true
 						},
 						{
@@ -401,6 +424,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected": true
 						},
 						{
@@ -410,6 +434,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected": true
 						},
 						{
@@ -419,6 +444,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected": true
 						},
 						{
@@ -428,6 +454,7 @@
 							"duration":"03:12",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected": true
 						}
 				]
@@ -683,6 +710,7 @@
 							"audio":"音频的URL，一般都mp3",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected":true
 						},
 						{
@@ -691,6 +719,7 @@
 							"audio":"音频的URL，一般都mp3",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected": true
 						},
 						{
@@ -707,6 +736,7 @@
 							"audio":"音频的URL，一般都mp3",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected": true
 						},
 						{
@@ -715,6 +745,7 @@
 							"audio":"音频的URL，一般都mp3",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected": true
 						},
 						{
@@ -723,6 +754,7 @@
 							"audio":"音频的URL，一般都mp3",
 							"category_name":"儿歌",
 							"icon":"图标URL",
+							"is_in_playlist":false,
 							"is_collected": true
 						}
 				]
