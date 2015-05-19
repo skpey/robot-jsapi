@@ -681,7 +681,60 @@
 						}
 				]
 			}
-			
+
+1. 语音包播放情况 `/weixin/jsapi/audio_pack/play_stat.json`
+	* 方法：GET
+	* 参数：
+		* `voice_pack_id` -- 后台将在URL尾部拼接上此参数
+	* 返回结果说明：
+		* `played` - 已播放多少秒
+		* `total` - 共多少秒
+		
+	* 返回：
+		
+			{
+				"code":200,
+				"message":"OK",
+				"data":[
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"played":30,
+							"total":100,
+							"is_in_playlist":true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"played":30,
+							"total":100,
+							"is_in_playlist":true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"played":30,
+							"total":100,
+							"is_in_playlist":true
+						},
+						{
+							"id":16779,
+							"name":"小兔子乖乖",
+							"audio":"音频的URL，一般都mp3",
+							"category_name":"儿歌",
+							"played":30,
+							"total":100,
+							"is_in_playlist":true
+						}
+				]
+			}
+					
 1. 	我的播放列表 `/weixin/jsapi/playlist/list.json`
 	* 方法：GET
 	* 参数：无
