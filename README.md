@@ -915,6 +915,22 @@
 			}	 
 
 ### 六。设置
+1. 获取设备的设置 `/weixin/jsapi/settings/get.json`
+	* 方法：GET
+	* 参数：无
+	* 返回：
+			
+				{
+					"code":200,
+					"message":"OK",
+					"data":{
+						"baby_nick":"我的宝贝",
+						"baby_birthday":"2008-8-8",
+						"device_volume":2,
+						"device_tone":3
+					}
+				}
+
 1. 更新设备 `/weixin/jsapi/settings/update.json`
 	* 方法：POST
 	* 参数：
